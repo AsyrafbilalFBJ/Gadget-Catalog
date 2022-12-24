@@ -26,6 +26,76 @@ canvas {
   margin: 0;
   background: hsla(0, 0%, 0%, 1);
 }
+@media (max-width: 1200px) {
+  canvas {
+    width: 100%;
+    height: 110vh;
+    position: absolute;
+    object-fit: cover;
+    object-position: center;
+    top: 0;
+    left: 0;
+    z-index: -90;
+    margin: 0;
+    background: hsla(0, 0%, 0%, 1);
+  }
+}
+@media (max-width: 1100px) {
+  canvas {
+    width: 100%;
+    height: 180vh;
+    position: absolute;
+    object-fit: cover;
+    object-position: center;
+    top: 0;
+    left: 0;
+    z-index: -90;
+    margin: 0;
+    background: hsla(0, 0%, 0%, 1);
+  }
+}
+@media (max-width: 800px) {
+  canvas {
+    width: 100%;
+    height: 270vh;
+    position: absolute;
+    object-fit: cover;
+    object-position: center;
+    top: 0;
+    left: 0;
+    z-index: -90;
+    margin: 0;
+    background: hsla(0, 0%, 0%, 1);
+  }
+}
+@media (max-width: 500px) {
+  canvas {
+    width: 100%;
+    height: 450vh;
+    position: absolute;
+    object-fit: cover;
+    object-position: center;
+    top: 0;
+    left: 0;
+    z-index: -90;
+    margin: 0;
+    background: hsla(0, 0%, 0%, 1);
+  }
+}
+@media (max-width: 400px) {
+  canvas {
+    width: 100%;
+    height: 430vh;
+    position: absolute;
+    object-fit: cover;
+    object-position: center;
+    top: 0;
+    left: 0;
+    z-index: -90;
+    margin: 0;
+    background: hsla(0, 0%, 0%, 1);
+  }
+}
 
 main {
   max-width: 100%;

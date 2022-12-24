@@ -14,7 +14,7 @@ class DataList extends HTMLElement {
     renderError(message) {
         this.shadowDOM.innerHTML = `
         <style>
-        ${css}
+            ${css}
             .placeholder {
                 font-weight: lighter;
                 color: rgba(0,0,0,0.5);

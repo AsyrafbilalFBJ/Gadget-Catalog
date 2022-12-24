@@ -10,7 +10,6 @@ const main = () => {
     try {
       console.log(searchElement.value);
       const result = await DataSource.searchData(searchElement.value);
-      // console.log(result);
       renderResult(result);
     } catch (message) {
       fallbackResult(message);
